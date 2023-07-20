@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.encabezado {
+    background: #34495E;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+.encabezadoginferior {
+    background: #F2F3F4 ;
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    width: 100%;
+}
+
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo span {
+    color: #ffd700;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #f1eeee;
+  text-align: center;
+
+}
+
+
+.contact-form input {
+   width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 1em;
+    font-size: 16px;
+}
+
+
+
+#registrar {
+     background-color: #186A3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 45px;
+    margin-bottom:25px;
+}
+
+#registrar:hover,
+#registrar:focus {
+    background: #1D8348;
+    color: #ffffff;
+    outline: 0;
+}
+
+/* ESTILO PARA EL MODAL DEL PANEL PROVEEDORES Y VISITANTES PRIMERA PALABRA*/
+.fuente-cabecera-card-modalpv {
+      font-size: 1.2em;
+  color:#2874A6;
+  font-weight: 600;
+}
+
+/* ESTILO PARA EL MODAL DEL PANEL PROVEEDORES Y VISITANTES SEGUNDA PALABRA*/
+.fuente-dato-card-modalpv {
+     font-size:1.0em; 
+     font-weight: 600;
+}
+
+
+
+.contact-info {
+    background: #dfdfdf;
+    text-align: center;
+}
+
+.table thead th {
+  background-color: #154360; 
+  color: #fff; 
+   position: sticky;
+  top: 0;
+}
+
+
+.table tbody td {
+  background-color: #B2BABB; 
+  color: #000; 
+  font-weight: 600;
+}
+
+
+  
+.tabla-contenedor {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+.table {
+  border-radius: 25px;
+  border-width: 5px;
+  border-style: solid; 
+}
+
+
+.sub {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px; 
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #154360; 
+    color: #fff; 
+}
+
+
+
+/*pantalla grande*/
+
+    @media (min-width:1190px){ 
+
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info{
+        padding: 1em;
+        text-align: center;
+    }
+    
+ .contact-form input {
+    width: 500px;
+  }
+
+  #registrar,
+  #regresar {
+    width: 450px;
+  }
+  
+  .encabezado {
+    width: 100px;
+}
+    
+} 
+
+
